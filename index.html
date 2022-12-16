@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="describe" content="DỊCH VỤ XE SÂN BAY VIP NỘI BÀI GIÁ RẺ
+    • TT Hà Nội > Nội Bài chỉ từ 200.000đ lưu ý giá trên tuỳ từng vị trí đón trả khách
+    • Nội Bài > TT Hà Nội chỉ từ 200.000đ
+    - Giá trên đã bao gồm phí ra vào sân bay, trọn gói lộ trình.
+    - Giá cực rẻ, đi ngoại tỉnh, sân bay đón-tiễn, về quê,du lịch,đi lễ.....">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -27,6 +32,36 @@
     <title>Taxi Thủ Đô</title>
   </head>
   <body>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "106924415607297");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="">
       <div class="">
         <!-- Header -->
