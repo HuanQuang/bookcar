@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+}
+html {
+    scroll-behavior: smooth;
+    min-height: 100%;
+    background: #f1f1f1;
+}
+i:hover {
+    cursor: Pointer;
+    opacity: 0.8;
+}
+a {
+    text-decoration: none;
+    cursor: Pointer;
+}
+input {
+    outline: none;
+}
+.headerShadow {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    z-index: 10;
+}

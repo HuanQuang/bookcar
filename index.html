@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/main.css">
+    <title>Taxi Thủ Đô</title>
+  </head>
+  <body>
+    <div class="">
+      <div class="">
+        <!-- Header -->
+        <div class="bg-[#ffba00] h-[100px] overflow-hidden fixed top-0 right-0 left-0 headerShadow">
+            <div class="flex max-w-[1200px] mx-auto h-[100px]  items-center justify-between">
+            <img class="h-[160px]" src="./access/logo2.png" alt="logo" />
+            <ul class="flex text-lg font-semibold gap-x-5">
+                <li><a>TRANG CHỦ</a></li>
+                <li><a>GIỚI THIỆU</a></li>
+                <li><a>LOẠI XE</a></li>
+                <li><a>BẢNG GIÁ</a></li>
+                <li><a>LIÊN HỆ</a></li>
+            </ul>
+            </div>
+        </div>
+        <!-- body -->
+        <div class="max-w-[1200px] mx-auto pt-[120px]">
+            <div class="">
+                <div class="swiper mySwiper">
+                    <div class="content__gallery--list swiper-wrapper">
+                        <img class="swiper-slide max-h-[550px]" src="./access/2.jpg" alt="">
+                        <img class="swiper-slide max-h-[550px]" src="./access/3.jpg" alt="">
+                        <img class="swiper-slide max-h-[550px]" src="./access/4.jpg" alt="">
+                        <img class="swiper-slide max-h-[550px]" src="./access/san-bay-noi-bai-1.jpg" alt="">
+                        <img class="swiper-slide max-h-[550px]" src="./access/taxi-164638773002971680500.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center py-8">
+                <h3 class="text-[26px] text-[darkorange] font-semibold">Đặt xe Nội Bài, xe đường dài - đi tỉnh</h3>
+                <h4 class="text-[22px] font-semibold mt-1 mb-2">Cam kết giá rẻ, uy tín hàng đầu, an toàn, chuyên nghiệp</h4>
+                <p class="text-[22px] font-semibold">HotLine:
+                    <span class="text-[red] underline cursor-pointer">0337579891</span>
+                    <span> - </span>
+                    <span class="text-[red] underline cursor-pointer">0327895786</span>
+                </p>
+                <div class="w-full bg-[#fff] border-dotted border-[4px] border-[#fe9900] rounded py-5 px-10 mt-7">
+                    <div class="flex text-[#fff] bg-[#ffba00]">
+                        <button class="w-1/2 text-[25px] font-semibold">
+                            <i class="fa-solid fa-plane-up"></i>
+                            Sân bay</button>
+                        <button class="w-1/2 text-[25px] font-semibold">
+                            <i class="fa-solid fa-road"></i>
+                            Đường dài</button>
+
+                    </div>
+                    <div class="">
+                        <form class="text-left">
+                            <div class="flex relative text-[22px] py-5 px-4 items-center">
+                                <h2 class="min-w-[180px] text-left">
+                                    <i class="fa-solid fa-street-view mr-1"></i>
+                                    Điểm đi:</h2>
+                                <input type="text" placeholder="Hà Nội..." class="h-11 rounded border-[1px] border-solid border-[#cacaca] p-2 text-[#222] text-xl flex-grow">
+                                <span></span>
+                            </div>
+                            <div class="flex relative text-[22px] py-5 px-4 items-center">
+                                <h2 class="min-w-[180px] text-left">
+                                    <i class="fa-solid fa-map-location mr-1"></i>
+                                    Điểm đến:</h2>
+                                <input type="text" placeholder="Nội Bài..." class="h-11 rounded border-[1px] border-solid border-[#cacaca] p-2 text-[#222] text-xl flex-grow">
+                                <span></span>
+                            </div>
+                            <div class="p-4 text-2xl font-bold">
+                                <i class="fa-solid fa-business-time"></i>
+                                 Thời gian
+                            </div>
+                            <div class="flex gap-x-5 mb-4 px-4">
+
+                                <input type="date" class="w-[300px] h-11 rounded border-[1px] border-solid border-[#cacaca] py-2 px-5 text-[#222] text-xl">
+                                <input type="time" class="w-[300px] h-11 rounded border-[1px] border-solid border-[#cacaca] py-2 px-5 text-[#222] text-xl">
+                            </div>
+                            <div class="px-4 flex flex-col gap-5">
+
+                                <input type="text" class="w-1/2 h-11 rounded border-[1px] border-solid border-[#cacaca] p-2 text-[#222] text-xl" placeholder="Họ và tên" maxlength="50">
+                                <input type="tel" class="w-1/2 h-11 rounded border-[1px] border-solid border-[#cacaca] p-2 text-[#222] text-xl" placeholder="Số điện thoại" maxlength="11">
+                                <input type="text" class="w-1/2 h-11 rounded border-[1px] border-solid border-[#cacaca] p-2 text-[#222] text-xl" placeholder="Ghi chú">
+                            </div>
+                            <div class="p-4 text-2xl font-bold">
+                              <div class="">
+                                <i class="fa-solid fa-car"></i>
+                                Chọn xe
+                            </div>
+                              <select class="w-1/2 outline-none rounded border-[1px] border-solid border-[#cacaca] p-2 text-[#222] text-xl my-2">
+                                <option>4 chỗ</option>
+                                <option>5 chỗ</option>
+                                <option>7 chỗ</option>
+                                <option>16 chỗ</option>
+                              </select>
+                            </div>
+                            <button class="rounded text-[#fff] bg-[#fe9900] border-[#fe9900] py-2 px-4 cursor-pointer m-4 text-xl font-semibold">Đặt xe ngay</button>
+                        </form>
+                       
+                    </div>
+                    
+                </div>
+                 <!-- Bảng giá -->
+                 <div class="w-full mt-8">
+                  <h2 class="text-center  font-bold text-[25px]">BẢNG GIÁ DỊCH VỤ</h2>
+                  <table class="table w-full my-8">
+                    <thead>
+                      <tr>
+                        <th class="text-lg uppercase text-[#fff] bg-[#09a200] w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">Loại xe</th>
+                        <th class="text-lg uppercase text-[#fff] bg-[#09a200] w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">Hà Nội</th>
+                        <th class="text-lg uppercase text-[#fff] bg-[#09a200] w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">Nội Bài</th>
+                        <th class="text-lg uppercase text-[#fff] bg-[#09a200] w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">Khứ hồi</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="text-lg w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">04 chỗ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">180.000đ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">250.000đ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">430.000đ</td>
+                      </tr>
+                      <tr>
+                        <td class="text-lg w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">05 chỗ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">200.000đ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">250.000đ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">450.000đ</td>
+                      </tr>
+                      <tr>
+                        <td class="text-lg w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">07 chỗ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">250.000đ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">320.000đ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">520.000đ</td>
+                      </tr>
+                        <td class="text-lg w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">16 chỗ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">500.000đ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">500.000đ</td>
+                        <td class=" w-1/4 border-[1px] border-solid border-[#ccc] font-bold text-center py-[10px] px-[5px]">800.000đ</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="">
+                  <h2 class="text-center  font-bold text-[25px] mb-4">TAXI THỦ ĐÔ</h2>
+                  <h2 class="text-[20px]"><b>DỊCH VỤ XE SÂN BAY VIP NỘI BÀI GIÁ RẺ</b></h2>
+                  <p class="text-[20px]"><strong><i>• TT Hà Nội > Nội Bài</i></strong> chỉ từ <span class="text-[red]">200.000đ</span> lưu ý giá trên tuỳ từng vị trí đón trả khách</p>
+                  <p class="text-[20px]"><strong><i>• Nội Bài > TT Hà Nội</i></strong> chỉ từ <span class="text-[red]">200.000đ</span></p>
+            
+                    <ul>
+                      <li class="text-[20px]">- Giá trên đã bao gồm phí ra vào sân bay, trọn gói lộ trình.</li> 
+                      <li class="text-[20px]">- Giá cực rẻ, đi ngoại tỉnh, sân bay đón-tiễn, về quê,du lịch,đi lễ.....</li>
+                      <li class="text-[20px]">- Lái xe nhiều năm kinh nghiệm,thông thuộc mọi tuyến đường.Phục vụ nhiệt tình,uy tín đúng hẹn,chu đáo...</li>
+                      <li class="text-[20px]">- Xe đời mới từ 4 chỗ , 5 chỗ, 7 chỗ, 16 chỗ.</li>
+                      <li class="text-[20px]">- Xe 5c chỉ 6000đ/km ( 2 chiều ) và 10.000đ/km ( 1 chiều )</li>
+                      <li class="text-[20px]">- Xe 7c chỉ 7000đ/km ( 2 chiều ) và 12.000đ/km ( 1 chiều )</li>
+                  
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            autoplay: {
+              delay: 5000,
+            },
+            loop: true,
+         
+            })
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+        tailwind.config = {
+          content: ["./src/**/*.{js,jsx,ts,tsx}"],
+          mode: "jit",
+          theme: {
+            screens: {
+              sm: { min: "540px" },
+              md: { min: "680px" },
+              lg: { min: "780px" },
+            },
+  
+            extend: {},
+          },
+          plugins: [],
+        };
+      </script>
+  </body>
+</html>
